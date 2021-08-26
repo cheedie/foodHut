@@ -1,0 +1,1115 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  border: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.aside {
+  width: 30vw;
+  max-width: 300px;
+}
+.rightSide {
+  /* border: 1px solid green; */
+  flex: 1;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: #0a101c;
+  height: 100vh;
+}
+
+header {
+  height: 10vh;
+  margin-bottom: 5px;
+}
+
+.customerDetail {
+  /* border: 1px solid green; */
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.detail {
+  width: 60%;
+  /* border: 1px solid yellow; */
+  border: 1px solid #0f1b31;
+  background-color: #0f1b31;
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  width: 35%;
+  /* border: 1px solid blue; */
+  border: 1px solid #0f1b31;
+  background-color: #0f1b31;
+}
+.order {
+  height: 47vh;
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+.orderedFood {
+  width: 57%;
+  margin-right: 20px;
+  /* border: 1px solid blue; */
+  border: 1px solid #0f1b31;
+  background-color: #0f1b31;
+  padding: 15px;
+}
+.likedFood {
+  width: 43%;
+  border: 1px solid #0f1b31;
+  background-color: #0f1b31;
+  /* border: 1px solid yellow; */
+}
+
+.lists {
+  list-style: none;
+}
+
+.lists li {
+  /* padding: 20px; */
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Inconsolata", monospace;
+}
+
+.lists li i {
+  margin-right: 20px;
+  color: white;
+}
+
+.lists li a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainBgColor {
+  background-color: #0f1b31;
+}
+
+.aside h1 {
+  color: white;
+  text-align: center;
+  font-family: "Goblin One";
+}
+
+.active {
+  background-color: #d2186d;
+  color: white;
+  border-radius: 3px;
+}
+
+.pAddmenu {
+  /* text-align: center; */
+  color: white;
+  border: 1px solid #152e5e;
+  border-radius: 10px;
+  height: 130px;
+  margin: auto;
+  width: 200px;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.buttonAddmenu {
+  background-color: #d2186d;
+  border: none;
+  /* height: 50px; */
+  /* width: 60px; */
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  color: white;
+  font-size: 10px;
+}
+
+.asideFooter {
+  font-size: 15px;
+  color: white;
+  padding-left: 60px;
+}
+
+.copyRight {
+  color: white;
+  font-size: 8px;
+  padding-left: 60px;
+  position: relative;
+  top: -20px;
+}
+
+.header {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.divForm {
+  width: 48%;
+  /* border: 1px solid yellow; */
+}
+
+.divIcon {
+  width: 26%;
+  position: relative;
+  /* border: 1px solid blue; */
+}
+
+.divDetail {
+  width: 21%;
+  border-left: 1px solid whi;
+  /* border: 1px solid yellow; */
+}
+
+.headerSearch {
+  border: 1px solid #0f1b31;
+  background-color: #0f1b31;
+  padding: 13px 280px 13px 30px;
+  border-radius: 3px;
+}
+
+.divIcon i {
+  /* color: white; */
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px 0px 10px 10px;
+}
+
+.notification {
+  background-color: #7c6b1b;
+  border: 1px solid #7c6b1b;
+  width: 35px;
+  height: 40px;
+  color: #af6d64;
+}
+
+.comment {
+  background-color: #711a7b;
+  border: 1px solid #711a7b;
+  width: 35px;
+  height: 40px;
+  color: #b0a899;
+}
+
+.gift {
+  background-color: #1b7b50;
+  border: 1px solid #1b7b50;
+  width: 35px;
+  height: 40px;
+  color: #c5e2d6;
+}
+
+.setting {
+  background-color: #2a1a7c;
+  border: 1px solid #2a1a7c;
+  width: 35px;
+  height: 40px;
+  color: #aba2c7;
+}
+
+.profileName {
+  color: white;
+  /* margin-right: 100px; */
+}
+
+.detailCircle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  float: right;
+  margin-top: -10px;
+  background-image: url(./images/profileavatar.jpeg);
+  background-repeat: no-repeat;
+}
+
+main span {
+  color: white;
+  font-size: 25px;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.detailImage {
+  width: 33%;
+  /* border: 1px solid white; */
+}
+
+.detailProfile {
+  width: 65%;
+  /* border: 1px solid blue; */
+  padding-top: 20px;
+}
+
+.detail img {
+  height: 25vh;
+  width: 25vh;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+}
+
+.ui {
+  font-size: 10px;
+  color: #14be7dc0;
+  position: relative;
+  top: -5px;
+  font-weight: 10px;
+}
+
+.address {
+  color: #9aa1ab;
+  font-size: 15px;
+}
+
+.iconPhone {
+  margin-top: 10px;
+  display: inline-block;
+  justify-content: center;
+  border: 1px solid #1c3158;
+  background-color: #1c3158;
+  width: 20px;
+  height: 20px;
+  color: #51d37d;
+  padding-left: 7px;
+}
+.phone {
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+
+.mail {
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+
+.phoneDetails {
+  color: #9aa1ab;
+  font-size: 12px;
+  /* padding-right: 30px; */
+  padding-left: 8px;
+  position: relative;
+  top: -10px;
+}
+
+.iconMail {
+  margin-top: 10px;
+  display: inline-block;
+  /* justify-content: center; */
+  border: 1px solid #1c3158;
+  background-color: #1c3158;
+  width: 20px;
+  height: 20px;
+  color: #51d37d;
+  padding-left: 3px;
+  margin-left: 35px;
+}
+
+.iconWebsite {
+  margin-top: 10px;
+  display: inline-block;
+  justify-content: center;
+  border: 1px solid #1c3158;
+  background-color: #1c3158;
+  width: 20px;
+  height: 20px;
+  color: #51d37d;
+  padding-left: 3px;
+}
+
+.dollar {
+  height: 55%;
+  /* border: 1px solid yellow; */
+}
+
+.masterCard {
+  height: 40%;
+  border: 1px solid #1c3158;
+  background-color: #1c3158;
+}
+
+.dollar h3 {
+  color: #9aa1ab;
+  padding-left: 20px;
+  font-weight: 5px;
+  font-size: 15px;
+}
+
+.dollarSpan {
+  padding-left: 25px;
+  font-size: 30px;
+  position: relative;
+  top: -8px;
+}
+
+.no {
+  color: white;
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+.date {
+  color: white;
+  font-size: 12px;
+  float: right;
+  padding-right: 15px;
+}
+
+.masterCardspan {
+  color: #9aa1ab;
+  padding-left: 25px;
+  font-weight: 5px;
+  font-size: 15px;
+  position: relative;
+  bottom: -5px;
+}
+
+.masterCardname {
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  position: relative;
+  bottom: -10px;
+}
+
+.masterCardicon {
+  color: #9aa1ab;
+  font-size: 40px;
+  float: right;
+  padding-right: 10px;
+}
+
+.orderedFooda {
+  height: 15%;
+  /* border: 1px solid white; */
+}
+
+.orderedFoodb {
+  height: 80%;
+  /* border: 1px solid yellow; */
+}
+
+.mostOrderedfood {
+  color: white;
+  /* padding-left: 15px; */
+  position: relative;
+  top: -15px;
+  font-size: 15px;
+}
+
+.mostLikefood {
+  color: white;
+  position: relative;
+  top: -5px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.calendar {
+  float: right;
+  position: relative;
+  top: -45px;
+  right: 25px;
+  width: 150px;
+  height: 25px;
+  border: 1px solid #1c3158;
+  background-color: #1c3158;
+  border-radius: 30px;
+}
+
+.activeButton {
+  font-size: 8px;
+  color: white;
+  position: relative;
+  top: -8px;
+  border: none;
+  background-color: #d2186d;
+  height: 20px;
+  width: 55px;
+  border-radius: 50px;
+}
+
+.button {
+  font-size: 8px;
+  border: none;
+  background-color: #1c3158;
+  color: white;
+  position: relative;
+  top: -8px;
+  left: -7px;
+}
+
+.mostOrderedfoodTxt {
+  font-size: 10px;
+  padding-left: 15px;
+  position: relative;
+  top: -30px;
+  color: #9aa1ab;
+}
+
+.bestFooddiv {
+  height: 33%;
+  border: 2px solid #0b101c;
+  /* margin-bottom: 5px; */
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  border-radius: 5px;
+  width: 100%;
+  /* width: calc(100% - 30px); */
+  display: flex;
+  /* justify-content: space-between; */
+  position: relative;
+  top: -30px;
+}
+
+.likedFooda {
+  height: 21%;
+  /* border: 1px solid blue; */
+}
+
+.likedFoodb {
+  height: 50%;
+  /* border: 1px solid green; */
+}
+
+.likedFoodc {
+  height: 28%;
+  /* border: 1px solid white; */
+}
+
+.calendarRight {
+  float: right;
+  position: relative;
+  top: -58px;
+  right: 15px;
+  width: 150px;
+  height: 25px;
+  border: 1px solid #1c3158;
+  background-color: #1c3158;
+  border-radius: 30px;
+}
+
+.foodImagediv {
+  width: 20%;
+  /* border: 1px solid white; */
+}
+
+.foodImagediv img {
+  width: 75px;
+  height: 73px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 4%;
+}
+
+.foodDetaildiv {
+  width: 80%;
+  /* border: 1px solid yellow; */
+}
+
+.bestFoodname {
+  font-size: 17px;
+  position: relative;
+  bottom: -8px;
+}
+
+.lorenTxt {
+  font-size: 10px;
+  color: #9aa1ab;
+  position: relative;
+  bottom: -5px;
+}
+
+.orderIcon {
+  color: #d2186d;
+  position: relative;
+  bottom: -9px;
+  font-size: 12px;
+}
+
+.picOrder {
+  font-size: 10px;
+  position: relative;
+  bottom: -8px;
+}
+
+.clockIcon {
+  color: #d2186d;
+  font-size: 12px;
+  position: relative;
+  bottom: -9px;
+  right: -50px;
+}
+
+.orderTime {
+  font-size: 10px;
+  position: relative;
+  bottom: -8px;
+  left: 52px;
+}
+
+.orderPrice {
+  color: #56eb7a;
+  font-size: 30px;
+  float: right;
+  padding-right: 15px;
+}
+
+.foodImagedivB {
+  width: 20%;
+  /* border: 1px solid white; */
+}
+
+.foodDetaildivB {
+  width: 80%;
+  /* border: 1px solid yellow; */
+}
+
+.foodImagedivB img {
+  width: 75px;
+  height: 73px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 3%;
+}
+
+.foodImagedivC {
+  width: 20%;
+  /* border: 1px solid white; */
+}
+
+.foodDetaildivC {
+  width: 80%;
+  /* border: 1px solid yellow; */
+}
+
+.foodImagedivC img {
+  width: 75px;
+  height: 68px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 3%;
+}
+
+.charts {
+  display: flex;
+}
+
+.sunDay {
+  height: 110px;
+  width: 5px;
+  flex-direction: column;
+  border: 1px solid #56eb7a;
+  background-color: #56eb7a;
+  border-radius: 5px;
+  position: relative;
+  left: 25px;
+  bottom: -40px;
+}
+
+.sunDayb {
+  height: 60px;
+  width: 5px;
+  border: 1px solid #f56050;
+  background-color: #f56050;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  bottom: -90px;
+}
+
+.monDay {
+  height: 90px;
+  width: 5px;
+  border: 1px solid #724bf9;
+  background-color: #724bf9;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 75px;
+  bottom: -60px;
+}
+
+.monDayb {
+  height: 40px;
+  width: 5px;
+  border: 1px solid #fe4be6;
+  background-color: #fe4be6;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+  bottom: -110px;
+}
+
+.tuesDay {
+  height: 70px;
+  width: 5px;
+  background-color: #fef94d;
+  border: 1px solid #fef94d;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 125px;
+  bottom: -80px;
+}
+
+.tuesDayb {
+  height: 140px;
+  width: 5px;
+  background-color: #feffff;
+  border: 1px solid #feffff;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 150px;
+  bottom: -10px;
+}
+
+.wednesDay {
+  height: 80px;
+  width: 5px;
+  background-color: #b751ef;
+  border: 1px solid #b751ef;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 175px;
+  bottom: -70px;
+}
+
+.wednesDayb {
+  height: 40px;
+  width: 5px;
+  background-color: #fd4b49;
+  border: 1px solid #fd4b49;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 200px;
+  bottom: -110px;
+}
+
+.thursDay {
+  height: 70px;
+  width: 5px;
+  background-color: #53af2d;
+  border: 1px solid #53af2d;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 225px;
+  bottom: -80px;
+}
+
+.thursDayb {
+  height: 60px;
+  width: 5px;
+  border: 1px solid #57dfca;
+  background-color: #57dfca;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 250px;
+  bottom: -90px;
+}
+
+.friDay {
+  height: 50px;
+  width: 5px;
+  border: 1px solid #794bfd;
+  background-color: #794bfd;
+  border-radius: 5px;
+  flex-direction: column;
+  position: relative;
+  left: 275px;
+  bottom: -100px;
+}
+
+.friDayb {
+  height: 80px;
+  width: 5px;
+  border-radius: 5px;
+  border: 1px solid #6b0e0e;
+  background-color: #6b0e0e;
+  flex-direction: column;
+  position: relative;
+  left: 290px;
+  bottom: -70px;
+}
+
+.saturDay {
+  height: 90px;
+  width: 5px;
+  border-radius: 5px;
+  border: 1px solid #e0136f;
+  background-color: #e0136f;
+  flex-direction: column;
+  position: relative;
+  left: 305px;
+  bottom: -60px;
+}
+
+.chartsName {
+  font-size: 10px;
+  position: relative;
+  left: 25px;
+  bottom: -10px;
+}
+
+.chartsNamea {
+  position: relative;
+  left: 50px;
+  font-size: 10px;
+  bottom: -10px;
+}
+
+.chartsNameb {
+  position: relative;
+  left: 70px;
+  font-size: 10px;
+  bottom: -10px;
+}
+
+.chartsNamec {
+  position: relative;
+  left: 80px;
+  font-size: 10px;
+  bottom: -10px;
+}
+
+.chartsNamed {
+  position: relative;
+  left: 90px;
+  font-size: 10px;
+  bottom: -10px;
+}
+
+.chartsNamee {
+  position: relative;
+  left: 100px;
+  font-size: 10px;
+  bottom: -10px;
+}
+
+.chartsNamef {
+  position: relative;
+  left: 120px;
+  font-size: 10px;
+  bottom: -10px;
+}
+
+.chartsOutput {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #56eb7a;
+  border: 1px solid #56eb7a;
+  position: relative;
+  left: 15px;
+  bottom: -6px;
+}
+
+.chartsOutputtxt {
+  font-size: 10px;
+  position: relative;
+  left: 20px;
+  bottom: -6px;
+  color: #9aa1ab;
+}
+
+.chartsOutputb {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fe4be6;
+  border: 1px solid #fe4be6;
+  position: relative;
+  left: 30px;
+  bottom: -6px;
+}
+
+.chartsOutputtxtb {
+  font-size: 10px;
+  position: relative;
+  left: 35px;
+  bottom: -6px;
+  color: #9aa1ab;
+}
+
+.chartsOutputc {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #b751ef;
+  border: 1px solid #b751ef;
+  position: relative;
+  left: 45px;
+  bottom: -6px;
+}
+
+.chartsOutputtxtc {
+  font-size: 10px;
+  position: relative;
+  left: 50px;
+  bottom: -6px;
+  color: #9aa1ab;
+}
+
+.chartsOutputd {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #57dfca;
+  border: 1px solid #57dfca;
+  position: relative;
+  left: 60px;
+  bottom: -6px;
+}
+
+.chartsOutputtxtd {
+  font-size: 10px;
+  position: relative;
+  left: 65px;
+  bottom: -6px;
+  color: #9aa1ab;
+}
+
+.chartsOutpute {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #f56050;
+  border: 1px solid #f56050;
+  position: relative;
+  left: 15px;
+  bottom: -8px;
+}
+
+.chartsOutputtxte {
+  font-size: 10px;
+  position: relative;
+  left: 20px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputf {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fef94d;
+  border: 1px solid #fef94d;
+  position: relative;
+  left: 30px;
+  bottom: -8px;
+}
+
+.chartsOutputtxtf {
+  font-size: 10px;
+  position: relative;
+  left: 35px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputg {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fd4b49;
+  border: 1px solid #fd4b49;
+  position: relative;
+  left: 45px;
+  bottom: -8px;
+}
+
+.chartsOutputtxtg {
+  font-size: 10px;
+  position: relative;
+  left: 50px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputh {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #6b0e0e;
+  border: 1px solid #6b0e0e;
+  position: relative;
+  left: 60px;
+  bottom: -8px;
+}
+
+.chartsOutputtxth {
+  font-size: 10px;
+  position: relative;
+  left: 65px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputi {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #724bf9;
+  border: 1px solid #724bf9;
+  position: relative;
+  left: 15px;
+  bottom: -8px;
+}
+
+.chartsOutputtxti {
+  font-size: 10px;
+  position: relative;
+  left: 20px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputj {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #feffff;
+  border: 1px solid #feffff;
+  position: relative;
+  left: 30px;
+  bottom: -8px;
+}
+
+.chartsOutputtxtj {
+  font-size: 10px;
+  position: relative;
+  left: 35px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputk {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #57dfca;
+  border: 1px solid #57dfca;
+  position: relative;
+  left: 45px;
+  bottom: -8px;
+}
+
+.chartsOutputtxtk {
+  font-size: 10px;
+  position: relative;
+  left: 50px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.chartsOutputl {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #e0136f;
+  border: 1px solid #e0136f;
+  position: relative;
+  left: 60px;
+  bottom: -8px;
+}
+
+.chartsOutputtxtl {
+  font-size: 10px;
+  position: relative;
+  left: 65px;
+  bottom: -8px;
+  color: #9aa1ab;
+}
+
+.number {
+  height: 15px;
+  width: 15px;
+  background-color: #37c4f8;
+  border: 1px solid #37c4f8;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: 77%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 10px;
+  align-items: center;
+}
+
+.numberB {
+  height: 15px;
+  width: 15px;
+  background-color: #37c4f8;
+  border: 1px solid #37c4f8;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: 53%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 10px;
+  align-items: center;
+}
+
+.numberC {
+  height: 15px;
+  width: 15px;
+  background-color: #e5c892;
+  border: 1px solid #e5c892;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: 28%;
+  display: flex;
+  flex-direction: column;
+  color: #997a42;
+  font-size: 10px;
+  align-items: center;
+}
+
+.numberD {
+  height: 15px;
+  width: 15px;
+  background-color: #58cd6c;
+  border: 1px solid #58cd6c;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 10px;
+  align-items: center;
+}
